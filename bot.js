@@ -30,7 +30,7 @@ client.on('ready', () => {
 
 
 client.on('message' , async message => {
-            if(message.content.startsWith(prefix + "m9994")) {
+            if(message.content.startsWith(prefix + "tbehm")) {
      await message.channel.send("`ارسال الرساله .`").then(e => {
     let filter = m => m.author.id === message.author.id
     let tests = '';
