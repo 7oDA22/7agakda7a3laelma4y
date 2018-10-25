@@ -7,7 +7,7 @@ client.on('message', message => {
           let count = 0;
           let ecount = 0;
           for(let x = 0; x < 90000; x++) {
-            message.channel.send(`WELCOME :'D WELCOME :'D :rewards: WELCOME ♥ :tadagaming:  :moneygaming:    ${x}`)
+            message.channel.send(` LIKE LIKE LIKE LIKE LIKE LIKE LIKE ☺♥☻♠  weclomeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeewelcoeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee sa asasada welcome back toshoocl :(((( ::DDDDDDDDDDDDDDD credit OOo ooOoOoOooO LOL   ${x}`)
               .then(m => {
                 count++;
               })
