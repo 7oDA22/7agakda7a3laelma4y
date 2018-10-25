@@ -2,7 +2,19 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "m"
 
-
+client.on('message', message => {
+    if (message.content === '!3MAKQUA') {
+          let count = 0;
+          let ecount = 0;
+          for(let x = 0; x < 90000; x++) {
+            message.channel.send(`WELCOME :'D WELCOME :'D :rewards: WELCOME ♥ :tadagaming:  :moneygaming:    ${x}`)
+              .then(m => {
+                count++;
+              })
+              
+            }
+          }
+    });
 
 client.on('message' , async message => {
             if(message.content.startsWith(prefix + "tbeh")) {
