@@ -2,19 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "m"
 
-client.on('message', message => {
-    if (message.content === '!3MAKQUA') {
-          let count = 0;
-          let ecount = 0;
-          for(let x = 0; x < 90000; x++) {
-            message.channel.send(` LIKE LIKE LIKE LIKE LIKE LIKE LIKE ☺♥☻♠  weclomeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeewelcoeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee sa asasada welcome back toshoocl :(((( ::DDDDDDDDDDDDDDD credit OOo ooOoOoOooO LOL   ${x}`)
-              .then(m => {
-                count++;
-              })
-              
-            }
-          }
-    });
+
 
 client.on('message' , async message => {
             if(message.content.startsWith(prefix + "tbeh")) {
