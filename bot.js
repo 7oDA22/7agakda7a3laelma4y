@@ -73,6 +73,8 @@ if (message.content.startsWith(adminprefix + 'setT')) {
   client.user.setGame(argresult, "https://www.twitch.tv/idk");
     message.channel.sendMessage(`**تم تغيير تويتش البوت إلى  ${argresult}**`)
 }
+});
+
 
 
 
