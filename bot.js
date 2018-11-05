@@ -8,16 +8,16 @@ client.on("ready", () => {
       status: 'dnd',
       game: { 
          type: 0,
-         name: '»1K SoON!  :) ',
+         name: '»1K SoON!• ',
          details: `Server GAMING`,
          url: 'http://twitch.tv/Streammingg',
          state: `إنْ لَمْ تَجِد لكْ حآقدْ إعلمْ أنْك إنسآن فآشِلْ`,
         application_id: '281376075802476544',
          assets: {
-            small_image: `366835431037337600`,
+            small_image: `https://cdn.pg.sa/ErVzpHVaiU.jpg`,
             small_text: ' Take This ! ' ,
-            large_image: `370451271133429760`,
-            large_text: `` }
+            large_image: `https://cdn.pg.sa/ErVzpHVaiU.jpg`,
+            large_text: `»1K SoON!• ` }
     
       }
         });
