@@ -5,7 +5,7 @@ var prefix = "m"
 
 client.on("ready", () => {
     client.user.setPresence({
-      status: 'dnd',
+      status: 'online',
       game: { 
          type: 0,
          name: '»1K SoON!• ',
@@ -14,9 +14,9 @@ client.on("ready", () => {
          state: `إنْ لَمْ تَجِد لكْ حآقدْ إعلمْ أنْك إنسآن فآشِلْ`,
         application_id: '281376075802476544',
          assets: {
-            small_image: `https://cdn.pg.sa/ErVzpHVaiU.jpg `,
-            small_text: ' https://cdn.pg.sa/ErVzpHVaiU.jpg ' ,
-            large_image: `https://cdn.pg.sa/ErVzpHVaiU.jpg`,
+            small_image: ` `,
+            small_text: ' ' ,
+            large_image: ``,
             large_text: `»1K SoON!• ` }
     
       }
