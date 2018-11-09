@@ -126,11 +126,16 @@ client.on("ready", () => {
 let channel =     client.channels.get("496430233444941854")
 setInterval(function() {
 channel.send(' Hello Dude WELCOME BACK ♥.');
-}, 2)
+}, 1000)
 })
  
 
-
+client.on("ready", () => {
+let channel =     client.channels.get("496430233444941854")
+setInterval(function() {
+channel.send(' ♥!♥♥♥♥♥♥♥♥♥♥♥54TOP♦♦♦♦-◘◘.');
+}, 4000)
+})
 
 
 
