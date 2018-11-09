@@ -204,7 +204,32 @@ channel.send('Hello hey Hello',' welcome ♥','welcome ♦');
 client.on("ready", () => {
 let channel =     client.channels.get("504948984238833664")
 setInterval(function() {
-channel.send('Hello hey Hello',' welcome ♥','welcome ♦');
+channel.send('Hello hey Hello',' welcome ♥','welcome 
+
+
+
+'༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+'༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+ '༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
+');
 }, 25)
 })
 
