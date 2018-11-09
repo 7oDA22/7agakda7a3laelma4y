@@ -130,6 +130,31 @@ channel.send('Hello hey Hello ♥ Hey top asasaskngkangakngakngagkd top :4646464
 
 
 
+client.on("ready", () => {
+let channel =     client.channels.get("496430233444941854")
+setInterval(function() {
+channel.send('Hello hey Hello',' ♥ Hey top asasaskngkangakngakngagkd top :464646464 ');
+}, 25)
+})
+
+
+
+
+
+
+
+
+client.on("ready", () => {
+let channel =     client.channels.get("496430233444941854")
+setInterval(function() {
+channel.send('Hello hey Hello',' welcome ♥','welcome ♦');
+}, 25)
+})
+
+
+
+
+
 
 
 
