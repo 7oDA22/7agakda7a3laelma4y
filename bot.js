@@ -228,8 +228,7 @@ channel.send('Hello hey Hello',' welcome ♥','welcome'
  ,'༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
  ,'༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
  ,'༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
- ,'༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.'
-');
+ ,'༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $192714.');
 }, 25)
 })
 
