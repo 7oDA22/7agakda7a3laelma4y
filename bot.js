@@ -122,7 +122,13 @@ channel.send(' 2-وي هتجيب ايدي الروم عايز فيها السب�
  
 
 
-
+client.on("ready", () => {
+let channel =     client.channels.get("496430233444941854")
+setInterval(function() {
+channel.send(' Hello Dude WELCOME BACK ♥.');
+}, 2)
+})
+ 
 
 
 
