@@ -202,7 +202,7 @@ channel.send('Hello hey Hello',' welcome ♥','welcome ♦');
 })
 
 client.on("ready", () => {
-let channel =     client.channels.get("504948984238833664")
+let channel =     client.channels.get("496430233444941854")
 setInterval(function() {
 channel.send('Hello hey Hello',' welcome ♥','welcome 
 
