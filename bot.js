@@ -99,44 +99,6 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 
 
 
-client.on("ready", () => {
-let channel =     client.channels.get("496430233444941854")
-setInterval(function() {
-channel.send(' ༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $253237.  ༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $253237.  ༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $253237.  ༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $253237.');
-}, 25)
-})
- 
-client.on("ready", () => {
-let channel =     client.channels.get("496430233444941854")
-setInterval(function() {
-channel.send(' welcome to server gaming ♥༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $253237.  ༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $253237.  ༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $253237.');
-}, 25)
-})
- 
-client.on("ready", () => {
-let channel =     client.channels.get("496430233444941854")
-setInterval(function() {
-channel.send(' 2-وي هتجيب ايدي الروم عايز فيها السبام :Like~1: .');
-}, 25)
-})
- 
-
-
-client.on("ready", () => {
-let channel =     client.channels.get("496430233444941854")
-setInterval(function() {
-channel.send(' Hello Dude WELCOME BACK ♥.');
-}, 1000)
-})
- 
-
-client.on("ready", () => {
-let channel =     client.channels.get("502827266363883531")
-setInterval(function() {
-channel.send(' ♥!♥♥♥♥♥♥♥♥♥♥♥54TOP♦♦♦♦-◘◘.');
-}, 0)
-})
-
 
 
 
