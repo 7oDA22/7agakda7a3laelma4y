@@ -99,6 +99,35 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 
 
 
+client.on("ready", () => {
+let channel =     client.channels.get("496430233444941854")
+setInterval(function() {
+channel.send(' ༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $253237.  ༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $253237.  ༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $253237.  ༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle ≽ܫ≼, your :credit_card: balance is $253237.');
+}, 25)
+})
+ 
+client.on("ready", () => {
+let channel =     client.channels.get("496430233444941854")
+setInterval(function() {
+channel.send('welcomeeeeee welcome e welcome welcome welcome ♥ top hey welcome top ');
+}, 25)
+})
+
+
+client.on("ready", () => {
+let channel =     client.channels.get("496430233444941854")
+setInterval(function() {
+channel.send('welcomeeeeee welcome e welcome welcome welcome ♥ top hey welcome top see follower me spammer habd Only hh  ');
+}, 25)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("496430233444941854")
+setInterval(function() {
+channel.send('Hello hey Hello ♥ Hey top asasaskngkangakngakngagkd top :464646464 ');
+}, 25)
+})
+
 
 
 
