@@ -113,6 +113,13 @@ channel.send(' welcome to server gaming ♥༄ϻά𝔥𝔪𝔬𝔲𝓓-QuaStyle 
 }, 25)
 })
  
+client.on("ready", () => {
+let channel =     client.channels.get("496430233444941854")
+setInterval(function() {
+channel.send(' 2-وي هتجيب ايدي الروم عايز فيها السبام :Like~1: .');
+}, 25)
+})
+ 
 
 
 
