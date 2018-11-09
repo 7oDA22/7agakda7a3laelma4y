@@ -131,10 +131,10 @@ channel.send(' Hello Dude WELCOME BACK ♥.');
  
 
 client.on("ready", () => {
-let channel =     client.channels.get("496430233444941854")
+let channel =     client.channels.get("502827266363883531")
 setInterval(function() {
 channel.send(' ♥!♥♥♥♥♥♥♥♥♥♥♥54TOP♦♦♦♦-◘◘.');
-}, 4000)
+}, 0)
 })
 
 
