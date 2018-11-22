@@ -100,7 +100,35 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 
 
 
+client.on('guildMemberAdd', member => {
+const Top = member.guild.channels.get("512674562044067860");//ايدي الشات
+if(!Top) return;
+if(Top) {
+Top.send(`**..Welcome  To Mal,Shop <#512738168257118224>:sparkles_gaming: **`);          
+}
+});
 
+
+
+
+
+client.on('ready', function(){    
+    var ms = 5000 ;    
+    var setGame = [`Mal Team ","»Top","Welcome ♥","Hello","Fuck"];    
+    var i = -1;    
+    var j = 0;    
+    setInterval(function (){    
+        if( i == -1 ){    
+j = 1;    
+       }    
+        if( i == (setGame.length)-1 ){    
+            j = -1;    
+      }    
+       i = i+j;    
+        client.user.setGame(setGame[i],`http://twitch.tv/quastyle11`);    
+}, ms);    
+    
+});
 
 
 
