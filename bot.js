@@ -26,7 +26,7 @@ client.on("ready", () => {
 
 client.on('message' , async message => {
             if(message.content.startsWith(prefix + "tbeh")) {
-     await message.channel.send("`ارسال الرساله .`").then(e => {
+     await message.channel.send("`Message .`").then(e => {
     let filter = m => m.author.id === message.author.id
     let tests = '';
     let time = '';
@@ -35,19 +35,19 @@ client.on('message' , async message => {
     .then(collected => {
       tests = collected.first().content
       collected.first().delete()
-e.edit("`تكرار الرساله كل ....... دقائق`")
+e.edit("`Min`")
 let chaTime = message.channel.awaitMessages(filter, { max: 1, time: 30000, errors: ['time'] })
 .then(co => {
-if(isNaN(co.first().content)) return message.reply("`الوقت بالدقائق ! ارقام فقطٍ`");
+if(isNaN(co.first().content)) return message.reply("`again`");
 if(co.first().content > 1500 || co.first().content < 1) return message.channel.send("`لا اقل من دقيقه ولا اكثر من يوم`")
   time = co.first().content
 co.first().delete()
-  e.edit("`ادخل اسم الروم`")
+  e.edit("`Ch`")
   let chaChannel = message.channel.awaitMessages(filter, { max: 1, time: 30000, errors: ['time'] })
 .then(col => {
   channel = col.first().content
 col.first().delete()
-  e.edit("`جاري اعداد المعلومات الرجاء الانتظاار...`").then(b => {
+  e.edit("`♥...`").then(b => {
               setTimeout(() => {
     b.edit(`** تم اعداد المعلومات بنجاح .**`)
         },2000);
@@ -112,22 +112,38 @@ Top.send(`**..Welcome  To Mal,Shop <#512738168257118224>:sparkles_gaming: **`);
 
 
 
-client.on('ready', function(){    
-    var ms = 5000 ;    
-    var setGame = [`Mal Team ","»Top","Welcome ♥","Hello","Fuck"];    
-    var i = -1;    
-    var j = 0;    
-    setInterval(function (){    
-        if( i == -1 ){    
-j = 1;    
-       }    
-        if( i == (setGame.length)-1 ){    
-            j = -1;    
-      }    
-       i = i+j;    
-        client.user.setGame(setGame[i],`http://twitch.tv/quastyle11`);    
-}, ms);    
-    
+const developers = ["411137717884289024"]
+client.on('message', message => {
+    var argresult = message.content.split(` `).slice(1).join(' ');
+      if (!developers.includes(message.author.id)) return;
+      
+  if (message.content.startsWith(adminprefix + 'ply')) {
+    client.user.setGame(argresult);
+      message.channel.send(`**Done.   ${argresult}**`)
+  } else 
+     if (message.content === (adminprefix + "leave")) {
+    message.guild.leave();        
+  } else  
+  if (message.content.startsWith(adminprefix + 'wt')) {
+  client.user.setActivity(argresult, {type:'WATCHING'});
+      message.channel.send(`**Done.   ${argresult}**`)
+  } else 
+  if (message.content.startsWith(adminprefix + 'ls')) {
+  client.user.setActivity(argresult , {type:'LISTENING'});
+      message.channel.send(`**Done.   ${argresult}**`)
+  } else 
+  if (message.content.startsWith(adminprefix + 'st')) {
+    client.user.setGame(argresult, "https://www.twitch.tv/idk");
+      message.channel.send(`**Done.**`)
+  }
+  if (message.content.startsWith(adminprefix + 'setname')) {
+  client.user.setUsername(argresult).then
+      message.channel.send(`Changing The Name To ..**${argresult}** `)
+} else
+if (message.content.startsWith(adminprefix + 'setavatar')) {
+  client.user.setAvatar(argresult);
+    message.channel.send(`Changing The Avatar To :**${argresult}** `);
+}
 });
 
 
