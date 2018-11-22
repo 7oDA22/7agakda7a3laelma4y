@@ -102,13 +102,12 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 
 
 client.on('guildMemberAdd', member => {
-var Canvas = require('canvas') //npm i canvas
-var jimp = require('jimp') //npm i jimp
-var channel = member.guild.channels.get("512674562044067860");
-    if(!channel) return;
-channel.send(`**..Welcome  To Mal,Shop <#512738168257118224>:sparkles_gaming: **`)          
-
-})
+const Top = member.guild.channels.get("512674548382957573");//ايدي الشات
+if(!Top) return;
+if(Top) {
+Top.send(`**..Welcome  To Mal,Shop <#512738168257118224>:rose::champagne_glass:.. **`);          
+}
+});
 
 
 
