@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "m"
+var prefix = "Qua"
 
 
 client.on("ready", () => {
@@ -70,7 +70,7 @@ room.send(tests);
 
 
 
-const adminprefix = "m";
+const adminprefix = "Qua";
 const devs = ['411137717884289024'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
@@ -105,7 +105,16 @@ client.on('guildMemberAdd', member => {
 const Top = member.guild.channels.get("512674548382957573");//ايدي الشات
 if(!Top) return;
 if(Top) {
-Top.send(`**..Welcome  To Mal,Shop <#512738168257118224>:rose::champagne_glass:.. **`);          
+Top.send(`**..Welcome  To Mal,Shop :rose::dove:.. **`);          
+}
+});
+
+
+client.on('guildMemberAdd', member => {
+const Top = member.guild.channels.get("516323087978070016");//ايدي الشات
+if(!Top) return;
+if(Top) {
+Top.send(`**..Welcome  To Merley STORE <#491567924444659733>:rose::dove:.. **`);          
 }
 });
 
